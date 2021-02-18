@@ -26,6 +26,7 @@ define Package/atheepmgr
   SECTION:=utils
   CATEGORY:=Utilities
   TITLE:=EEPROM/boarddata management utility for Atheros WLAN chips
+  DEPENDS:=+libpciaccess
   MENU:=1
 endef
 
