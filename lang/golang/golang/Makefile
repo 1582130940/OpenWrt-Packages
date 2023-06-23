@@ -16,7 +16,8 @@ PKG_RELEASE:=1
 
 GO_SOURCE_URLS:=https://dl.google.com/go/ \
                 https://mirrors.ustc.edu.cn/golang/ \
-                https://mirrors.nju.edu.cn/golang/
+                https://mirrors.nju.edu.cn/golang/ \
+                https://go.dev/dl/
 
 PKG_SOURCE:=go$(PKG_VERSION).src.tar.gz
 PKG_SOURCE_URL:=$(GO_SOURCE_URLS)
